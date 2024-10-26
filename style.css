@@ -4,6 +4,7 @@ html {
 
 body {
   color: #24292e;
+  font-family: "Sawarabi Gothic";
 }
 
 a {
@@ -25,6 +26,13 @@ li {
 }
 
 /* common class */
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+  font-size: 0.9rem;
+  padding: 0 4%;
+}
+
 .site-title {
   line-height: 1px;
   font-weight: 600;
@@ -33,6 +41,12 @@ li {
 
 .site-title a {
   color: #24292e;
+}
+
+.sec-title a {
+  color: #24292e;
+  text-align: center;
+  margin-bottom: 65px;
 }
 
 /* header */
@@ -80,6 +94,21 @@ li {
   max-width: 1920px;
   height: 400px;
   object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+/* about */
+#about ul {
+  margin-bottom: 30px;
+}
+
+#about ul li {
+  margin-bottom: 3px;
+}
+
+#about ul li:first-child {
+  margin-bottom: 30px;
 }
 
 /* sp */
